@@ -14,6 +14,8 @@ protocol WeatherManagerDelegate{
 
 
 struct WeatherManager {
+    
+    let API = "ea3abcfdbb8ba7c5c28cfd7f89522af0"
      
     var delegate: WeatherManagerDelegate?
     
